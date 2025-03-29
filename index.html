@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #F0F7FA, #87CEEB);
+        }
+
+        header {
+            background-color: #bcdfef;
+            color: #0e4c5c;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            text-align: right;
+        }
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 75%; /* Create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 75px; /* Adjust top position as needed */
+            left: 75px; /* Adjust left position as needed */
+        }
+
+        nav {
+            background: linear-gradient(to right, #F0F7FA, #87CEEB);;
+            color: #000000;
+            text-align: center;
+            height: 10%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: 400%;
+        }
+
+        .section-content {
+            background: linear-gradient(to right, #F0F7FA, #87CEEB);
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+            border: solid black 2px;
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .contact {
+    padding: 50px 10%;
+    background: linear-gradient(to right, #F0F7FA, #87CEEB);
+    text-align: center;
+    height: 90vh;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #0B6285;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #87CEEB;
+}
+
+/* Form Styles */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Submit Button */
+.btn {
+    width: 100%;
+    background-color: #0B6285;
+    color: #fff;
+    padding: 12px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #87CEEB;
+}
+
+/* Contact Icons */
+.contact-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-icons a {
+    text-decoration: none;
+}
+
+.contact-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.2);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="C:\Users\priyadharshini\Desktop\portewb\profilepic.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>Priyadharshini <br>Thangaraj</h1>
+            <p style="text-align: right;">Front End Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#resume">Resume</a></li>
+           
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>  Passionate Front-End Developer aspirant with a strong frap of web technologies and responsive design.Skilled in Problrm-solving,teamwork, and writing clean,efficient code.Eager to innovate ,learn,and contribute to impactful projects in a dynamic environment.</p>
+
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>Kg College Of Arts And Science <br> B.Sc Computer Technology
+               <br>Percentage:82%
+            </p>
+            
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>java</li>
+                <li>C++</li>
+                <li>Java script</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Tic Tac Toa Gaming App</a></li>
+                <li><a href="#">Responsive Calculaor</a></li>
+                <li><a href="#">Personal Portfolio</a></li>
+                
+                <!-- Add more project links here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="C:\Users\priyadharshini\Desktop\portewb\resume.pdf" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+    <section class="contact" id="Contact">
+      
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Name" required />
+            </div>
+    
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email" required />
+            </div>
+    
+            <div class="form-group">
+                <textarea name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+    
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    <br>
+        <!-- Contact Icons Section -->
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/priyadharshini-priya107" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/Priyadharshini1076" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+            </a>
+            <a href="mailto:your-priyadharshh107.com">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+            </a>
+           
+        </div>
+  
+        </section>
+    <footer>
+        <p>&copy; 2025 Priyadharshini TR | B.Sc Computer Technology <br>
+            Kg College Of Arts And Science 
+        </p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
